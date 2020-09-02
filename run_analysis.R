@@ -75,4 +75,4 @@ wearabledataaverages <- wearabledatasubset %>%
         summarise_all(mean)
 
 #Write the tidied data into a csv file
-write.table(wearabledataaverages, "tidy_data.txt")
+write.table(wearabledataaverages, "tidy_data.txt", row.name=FALSE)
