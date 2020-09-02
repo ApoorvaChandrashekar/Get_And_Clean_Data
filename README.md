@@ -13,10 +13,10 @@ available at the site where the data was obtained:
 
 The repository contains the following files:
 
-- `README.md`, this file, has a summary of the data and how it was created
+- `README.md`, this file, has a summary of the project and information about the files in the repository.
 - `tidy_data.txt`, the tidy data set.
-- `CodeBook.md`, the code book, which describes the variables of the data set 
-- `run_analysis.R`, the script used to get from the raw data to the tidy data
+- `CodeBook.md`, the code book, which describes the variables of the data set and how to get from the raw data to the tidy data. 
+- `run_analysis.R`, the script used to get from the raw data to the tidy data.
 
 ### run_analysis.R
 This script can be used to create the tidy dataset that is present in `tidy_data.txt`.
